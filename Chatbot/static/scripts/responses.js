@@ -1,6 +1,6 @@
 function getBotResponse(input) {
   // Simple responses for a depressed chatbot
-  if (input.includes("sad")) {
+  if (input.includes("sad") || input.includes("depressed")) {
     return "I'm sorry to hear that you're feeling sad. Remember that you're not alone, and I'm here to listen.";
   } else if (input.includes("lonely")) {
     return "Loneliness can be tough. Remember that there are people who care about you, including me. Let's chat and keep each other company.";
