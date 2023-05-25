@@ -18,6 +18,8 @@ function getBotResponse(input) {
     return "Here is the link to a <a href='https://www.youtube.com/watch?v=j3X7vhvqi_E'>Song</a> which will definitely help you feel better!";
   } else if (input.includes("therapy") || input.includes("counselling")) {
     return "This is a free resource where you can <a href='https://www.vandrevalafoundation.com/free-counseling'>talk to experts.</a>";
+  } else if (input.includes("I am here for you!")) {
+      return "I would be delighted if you express yourself freely!";
   } else {
     return "I'm here to support you. Feel free to share what's on your mind, and we can work through it together.";
   }
